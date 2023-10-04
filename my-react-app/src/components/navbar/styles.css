@@ -1,0 +1,29 @@
+
+
+.navbar-nav {
+    gap: 20px
+}
+
+
+  .nav-link {
+    color:#fff;
+    font-family: var(--open-sans);
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+    .nav-link:hover{
+        
+        color:var(--primary);
+        border-bottom: solid 2px var(--primary);
+    }
+
+    
+
+   .logo{
+    width: 250px;
+   }
+
+   .highlight {
+    font-weight: 700;
+   }

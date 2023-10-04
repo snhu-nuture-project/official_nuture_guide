@@ -1,0 +1,29 @@
+#workSec{
+    height: 20vh
+}
+
+.workExp{
+    height: 100vh;
+    
+}
+
+@media only screen and (max-width: 1328px)  {
+    .workExp{ 
+        margin-top: 200px;
+        height:100%
+       
+  }
+}
+
+.dutyHighlightEmp:hover{
+    cursor:pointer;
+    background-color: var(--highlights);
+    color: black;
+}
+
+.expSwitch{
+    width: 250px;
+    padding: 0px;
+    margin-left: 64px;
+    border-radius: 20%;
+}

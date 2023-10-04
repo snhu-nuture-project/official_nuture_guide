@@ -1,0 +1,64 @@
+
+
+.sideBar ul li .icons{
+    margin-top: 40px;
+}
+
+.sideBar ul li a:hover{
+    color: var(--primary);
+}
+
+.side-header {
+    color: var(--primary);
+    font-family: var(--open-sans);
+    font-weight: 600;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sideBar{
+    width: 12%;
+    height: 70vh;
+    position: fixed;
+    left: 0px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+    visibility: visible;
+    overflow-y: scroll;
+
+}
+
+.sideBar::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+
+  /* Style the scrollbar thumb (the draggable part) */
+.sideBar::-webkit-scrollbar-thumb {
+    background-color: var(--heritage); /* Set the color of the thumb */
+    border-radius: 6px; /* Round the corners of the thumb */
+  }
+  
+  /* Style the scrollbar track (the area the thumb moves on) */
+  .sideBar::-webkit-scrollbar-track {
+    background-color: var(--hero-blue); /* Set the color of the track */
+  }
+
+.sideBar ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;  
+}
+
+@media only screen and (max-width: 1328px)  {
+    .sideBar{ 
+        visibility: hidden;
+        position: absolute;
+  }
+}

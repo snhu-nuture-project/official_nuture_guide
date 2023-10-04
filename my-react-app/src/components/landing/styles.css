@@ -1,0 +1,45 @@
+:root{
+    --main-text:#8892b0 ;
+    --theme-color: #0a254e;
+    --highlights: #50ccb4;
+    --bold-text: #bec8e7;
+}
+
+.name{
+    color: #fff;
+    font-family: var(--oswald);
+    font-size: 4rem;
+}
+
+.como{
+    font-size: 20px;
+}
+
+.beginning h3{
+    color: var(--main-text );
+    font-size: 3rem;
+    font-family: var(--main-font);
+}
+
+    .ArrowDown{
+        
+        display: flex;
+        justify-content: center;
+        color: #8892b0;
+        padding: 0;
+        margin: auto;
+        font-size: 50px;
+    
+    }
+
+    .ArrowDown:hover{
+       
+        display: flex;
+        justify-content: center;
+        color: var(--highlights);
+        padding: 0;
+        margin: auto;
+        font-size: 80px;
+    
+    }
+
