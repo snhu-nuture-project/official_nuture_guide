@@ -4,7 +4,7 @@ import "./styles.css";
 class Sidebar extends Component {
   render() {
     return (
-      <div className="sideBar ml-5">
+      <div className="sideBar ml-3">
         <li className="side-header">Getting Started</li>
         <ul>
           <li>
