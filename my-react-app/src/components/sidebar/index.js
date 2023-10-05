@@ -16,7 +16,7 @@ class Sidebar extends Component {
             </a>
           </li>
           <li>
-            <a href="/docs/5.3/getting-started/introduction/" class="">
+            <a href="https://degrees.snhu.edu/?utm_campaign=PFBranded&pfsegment=BR&utm_source=google&utm_medium=pdsearch&utm_content=630477111537&snhu_segment=ol&adkeyword=snhu&admatchtype=e&addevice=c&adnetwork=g&adcampaignid=314120001&adcampaignname=G:Brand_General:TX&adgroupid=24994648881&adgroupname=SNHU-ONLY-EXACT-BRAND-GENERAL:TX&adlocationid=9027730&adplacement=&venpubid=ppcbrand&gad=1&gclid=CjwKCAjwvfmoBhAwEiwAG2tqzHT6Yw8Lqq8Zfbxj8TNW9JNqghz39mfRmFsUqpwhc_EaEJHncZPWjRoC2WIQAvD_BwE&gclsrc=aw.ds" class="">
               SNHU Home Page
             </a>
           </li>
@@ -56,7 +56,7 @@ class Sidebar extends Component {
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/contents/"
+              href="#github"
               class="bd-links-link d-inline-block rounded"
             >
               Git Bash Cheat sheet
@@ -68,20 +68,20 @@ class Sidebar extends Component {
         <ul>
           <li>
             <a
-              href="/docs/5.3/getting-started/introduction/"
+              href="#component-lib"
               class="bd-links-link d-inline-block rounded "
             >
               Accordion
             </a>
           </li>
           <li>
-            <a href="/docs/5.3/getting-started/introduction/" class="">
+            <a href="#component-lib" class="">
               Buttons
             </a>
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/download/"
+              href="#component-lib"
               class="bd-links-link d-inline-block rounded"
             >
               Footer
@@ -89,7 +89,7 @@ class Sidebar extends Component {
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/contents/"
+              href="#component-lib"
               class="bd-links-link d-inline-block rounded"
             >
               Nav Bar
@@ -97,7 +97,7 @@ class Sidebar extends Component {
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/contents/"
+              href="#component-lib"
               class="bd-links-link d-inline-block rounded"
             >
               Accredation
@@ -109,7 +109,7 @@ class Sidebar extends Component {
         <ul>
           <li>
             <a
-              href="/docs/5.3/getting-started/contents/"
+              href="https://github.com/orgs/snhu-nuture-project/repositories"
               class="bd-links-link d-inline-block rounded"
             >
               Nuture GitHub Repos
@@ -117,20 +117,20 @@ class Sidebar extends Component {
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/introduction/"
+              href="https://getbootstrap.com/"
               class="bd-links-link d-inline-block rounded "
             >
               Bootstrap Documentation
             </a>
           </li>
           <li>
-            <a href="/docs/5.3/getting-started/introduction/" class="">
+            <a href="https://git-scm.com/downloads" class="">
               Git Bash Download
             </a>
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/download/"
+              href="https://code.visualstudio.com/"
               class="bd-links-link d-inline-block rounded"
             >
               VS Code Download
@@ -138,7 +138,7 @@ class Sidebar extends Component {
           </li>
           <li>
             <a
-              href="/docs/5.3/getting-started/contents/"
+              href="https://www.figma.com/"
               class="bd-links-link d-inline-block rounded"
             >
               Figma Download

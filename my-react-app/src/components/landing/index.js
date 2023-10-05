@@ -6,22 +6,22 @@ import snhuMarket from "../../images/animation_lnc0moq3.json";
 import $ from "jquery";
 
 class Landing extends Component {
-  download = () => {
-    // Create a Blob with the zip file data (replace 'your-zip-file.zip' with the actual file path)
-    const zipBlob = new Blob([""], { type: "application/zip" });
+  // download = () => {
+  //   // Create a Blob with the zip file data (replace 'your-zip-file.zip' with the actual file path)
+  //   const zipBlob = new Blob([""], { type: "application/zip" });
 
-    // Create a temporary URL for the Blob
-    const zipUrl = window.URL.createObjectURL(zipBlob);
+  //   // Create a temporary URL for the Blob
+  //   const zipUrl = window.URL.createObjectURL(zipBlob);
 
-    // Create a link element for downloading
-    const downloadLink = document.createElement("a");
-    downloadLink.href = zipUrl;
-    downloadLink.download = "snhu_starter_template.zip"; // Set the desired file name
+  //   // Create a link element for downloading
+  //   const downloadLink = document.createElement("a");
+  //   downloadLink.href = zipUrl;
+  //   downloadLink.download = "snhu_starter_template.zip"; // Set the desired file name
 
-    // Trigger the download
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-  };
+  //   // Trigger the download
+  //   document.body.appendChild(downloadLink);
+  //   downloadLink.click();
+  // };
 
   render() {
     return (
@@ -48,13 +48,14 @@ class Landing extends Component {
               already has the fundamental override styles customized for the
               SNHU Brand.
             </p>
-            <button
+            <a
               className="btn btn-primary"
               id="downloadButton"
-              onClick={this.download}
+              href="./snhu_starter_template.zip"
+              download = "snhu_starter_template.zip"
             >
               Download Starter Template
-            </button>
+            </a>
           </div>
 
           <div class="col-md-6">

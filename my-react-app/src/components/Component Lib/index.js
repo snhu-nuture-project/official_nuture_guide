@@ -18,16 +18,34 @@ class ComponentLib extends Component {
 
   state = {
     title: "Accordion",
-    code: "Hover the cards for more details and to view the code or the site. Enter the gif you want to see appear and the bottom of the screen Stickers are animate",
+    code: "Click one of the components above",
     image: AccordionGif,
   };
 
   changeAccordion = () => {
     this.setState({
       title: "Accordion",
-      code: "code block coming soon",
+      code: '<div class="accordion-item mt-4">' +
+      '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"' +
+       ' data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flushThree">' +
+        '<h4 class="accordion-header">'+
+         ' Whats the difference between financial aid loans and grants?'+
+        '</h4> </button>'+
+      '<div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">'+
+        '<div class="accordion-body">'+
+          '<p>'+
+          '<ul>'+
+           ' <li><strong>Grants</strong> are awarded funds that DO NOT have to be paid back.<sup>*</sup> Most '+
+              'graduate students do not qualify for federal grants.</li>'+
+            '<li><strong>Loans</strong> are borrowed funds that DO have to be paid back</li>'+
+          '</ul>'+
+          '</p>'+
+          '<p style="font-size: .75rem"><sup>*</sup>Students who fail to complete the academic period for which the'+
+           ' Federal Pell Grant was offered will be asked to pay back a portion of the grant.</p>'+
+        '</div>'+
+      '</div>'+
+    '</div>,',
       image: { AccordionGif },
-      isButtonActive: true,
     });
   };
 
@@ -36,9 +54,7 @@ class ComponentLib extends Component {
       title: "Buttons",
       code: "code block coming soon",
       image: { bGif },
-      isButtonActive: true,
     });
-    this.toggleActiveClass();
   };
 
   changeFooter = () => {
@@ -68,7 +84,7 @@ class ComponentLib extends Component {
       : "btn btn-primary";
 
     return (
-      <section className="component-lib" id="about">
+      <section className="component-lib" id="component-lib">
         <div className="row ">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <h1 className="text-center">Component Library</h1>
@@ -79,7 +95,8 @@ class ComponentLib extends Component {
               you will simply click the components you wish to use, copy and
               paste the code provided onto your local machine.
             </p>
-            <div className="d-flex justify-content-center btn-group com-btn">
+            <div className="d-flex justify-content-center btn-group com-btn col-md-12">
+              
               <button
                 className={buttonClassName}
                 onClick={this.changeAccordion}
