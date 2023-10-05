@@ -24,7 +24,7 @@ class NavBar extends Component {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link active" href="#">
+              <a class="nav-link" href="#">
                 <span class="highlight"> 01 </span> Home{" "}
                 <span class="sr-only">(current)</span>
               </a>

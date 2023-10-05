@@ -105,6 +105,13 @@ class ComponentLib extends Component {
                 {" "}
                 Accredation{" "}
               </button>
+              <button
+                className="btn-primary btn"
+                onClick={this.changeAccrediation}
+              >
+                {" "}
+                Forms{" "}
+              </button>
             </div>
             <hr className="hrt" />
           </div>
