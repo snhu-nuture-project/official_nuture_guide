@@ -1,0 +1,59 @@
+.mtc{
+    color:var(--bold-text);
+}
+
+.hrt{
+    border-top: 2px solid var(--main-text);
+    
+}
+
+.component-lib h2{
+    color:var(--bold-text);
+    font-family: var(--main-font);
+}
+
+
+p{
+    font-family: var(--open-sans);
+    color:#fff;
+    font-size: 15px;
+}
+
+.active {
+    background-color: var(--primary) !important;
+}
+
+.example-img {
+    border-radius: 15px;
+}
+
+/* Style for the code box */
+.code-box {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+    margin-bottom: 10px;
+}
+
+/* Style for the copy button */
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+pre {
+    white-space: pre-wrap; /* This ensures that lines break at spaces and other white-space characters. */
+    word-wrap: break-word; /* For older browsers */
+    overflow-wrap: break-word; /* For modern browsers */
+}

@@ -19,6 +19,11 @@ body{
   text-align: center;
 }
 
+h1{
+  color: #fff;
+  font-family: var(--oswald);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,7 +33,9 @@ html {
   pointer-events: none;
 }
 
-
+section {
+  margin-bottom: 10rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

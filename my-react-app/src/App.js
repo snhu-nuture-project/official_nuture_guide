@@ -1,7 +1,7 @@
 import NavBar from "./components/navbar";
 import Sidebar from "./components/sidebar";
 import Landing from "./components/landing";
-import About from "./components/about";
+import ComponentLib from "./components/Component Lib";
 import Work from "./components/work";
 import Education from "./components/education";
 import Footer from "./components/Footer";
@@ -15,7 +15,7 @@ function App() {
       <div className="container">
         <Sidebar />
         <Landing />
-        <About />
+        <ComponentLib />
         <Work />
         <Education />
       </div>
