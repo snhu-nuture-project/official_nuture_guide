@@ -1,0 +1,21 @@
+
+.get-started h2 {
+color: #fff;
+
+}
+
+
+
+.get-started ol li {
+    color: #fff;
+    
+    }
+
+.red-text {
+    color: red;
+    font-weight: 700;
+}
+
+.primary {
+    color: var(--primary);
+}

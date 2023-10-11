@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar";
 import Landing from "./components/landing";
 import ComponentLib from "./components/Component Lib";
 import Git from "./components/git";
+import GetStarted from "./components/getStarted";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
         <Zoom duration={3000}>
           <Landing />
         </Zoom>
+        <GetStarted />
         <ComponentLib />
         <Git />
         <Zoom>

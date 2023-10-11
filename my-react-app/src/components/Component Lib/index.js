@@ -17,35 +17,38 @@ class ComponentLib extends Component {
   };
 
   state = {
-    title: "Accordion",
+    title: "Code Block",
     code: "Click one of the components above",
     image: AccordionGif,
+    work: "Here is a list of the most common components we use. If you are using the starter template all of the styles have been applied and you will simply click the components you wish to use, copy and paste the code provided onto your local machine.",
   };
 
   changeAccordion = () => {
     this.setState({
       title: "Accordion",
-      code: '<div class="accordion-item mt-4">' +
-      '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"' +
-       ' data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flushThree">' +
-        '<h4 class="accordion-header">'+
-         ' Whats the difference between financial aid loans and grants?'+
-        '</h4> </button>'+
-      '<div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">'+
-        '<div class="accordion-body">'+
-          '<p>'+
-          '<ul>'+
-           ' <li><strong>Grants</strong> are awarded funds that DO NOT have to be paid back.<sup>*</sup> Most '+
-              'graduate students do not qualify for federal grants.</li>'+
-            '<li><strong>Loans</strong> are borrowed funds that DO have to be paid back</li>'+
-          '</ul>'+
-          '</p>'+
-          '<p style="font-size: .75rem"><sup>*</sup>Students who fail to complete the academic period for which the'+
-           ' Federal Pell Grant was offered will be asked to pay back a portion of the grant.</p>'+
-        '</div>'+
-      '</div>'+
-    '</div>,',
+      code:
+        '<div class="accordion-item mt-4">' +
+        '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"' +
+        ' data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flushThree">' +
+        '<h4 class="accordion-header">' +
+        " Whats the difference between financial aid loans and grants?" +
+        "</h4> </button>" +
+        '<div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">' +
+        '<div class="accordion-body">' +
+        "<p>" +
+        "<ul>" +
+        " <li><strong>Grants</strong> are awarded funds that DO NOT have to be paid back.<sup>*</sup> Most " +
+        "graduate students do not qualify for federal grants.</li>" +
+        "<li><strong>Loans</strong> are borrowed funds that DO have to be paid back</li>" +
+        "</ul>" +
+        "</p>" +
+        '<p style="font-size: .75rem"><sup>*</sup>Students who fail to complete the academic period for which the' +
+        " Federal Pell Grant was offered will be asked to pay back a portion of the grant.</p>" +
+        "</div>" +
+        "</div>" +
+        "</div>,",
       image: { AccordionGif },
+      work: "The accordion uses collapse internally to make it collapsible",
     });
   };
 
@@ -90,13 +93,9 @@ class ComponentLib extends Component {
             <h1 className="text-center">Component Library</h1>
             <p className="text-center">
               {" "}
-              Here is a list of the most common components we use. If you are
-              using the starter template all of the styles have been applied and
-              you will simply click the components you wish to use, copy and
-              paste the code provided onto your local machine.
-            </p>
-            <div className="d-flex justify-content-center btn-group com-btn col-md-12">
               
+            </p>
+            <div className="d-flex justify-content-center btn-group com-btn col-md-11">
               <button
                 className={buttonClassName}
                 onClick={this.changeAccordion}
@@ -135,11 +134,21 @@ class ComponentLib extends Component {
         </div>
 
         <div className="row">
+          
+          <div className="col-md-6">
+            <h2>How it works</h2>
+            <p className="text-center">{this.state.work}</p>
+          </div>
+          <div className="col-md-6">
+            <h2>Example</h2>
+            <img src={this.state.image} className="w-100 example-img" />
+          </div>
+
           <div
-            className="col-md-6
+            className="col-md-12 mt-3
             "
           >
-            <h2> {this.state.title} </h2>
+            <h2 className="text-center"> {this.state.title} </h2>
             <div class="code-box">
               <button class="copy-button" onClick={this.copyToClipboard}>
                 Copy
@@ -148,10 +157,6 @@ class ComponentLib extends Component {
               <br></br>
               <pre>{this.state.code}</pre>
             </div>
-          </div>
-          <div className="col-md-6">
-            <h2>Example</h2>
-            <img src={this.state.image} className="w-100 example-img" />
           </div>
         </div>
       </section>

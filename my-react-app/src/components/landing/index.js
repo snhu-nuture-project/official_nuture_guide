@@ -3,7 +3,8 @@ import Typewriter from "typewriter-effect";
 import Lottie from "lottie-react";
 import "./styles.css";
 import snhuMarket from "../../images/animation_lnc0moq3.json";
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
+import zip from "../landing/snhu_starter_template.zip"
 
 class Landing extends Component {
   // download = () => {
@@ -46,15 +47,14 @@ class Landing extends Component {
             <br />
             <p>
               Make use of this manual as a starting point for your Nuture
-              projects. Simply make a copy of the beginning template, which
-              already has the fundamental override styles customized for the
-              SNHU Brand.
+              projects. Simply download a zip file of the starter template, this
+              has the fundamental override styles customized for the SNHU Brand.
             </p>
             <a
               className="btn btn-primary"
               id="downloadButton"
-              href="./snhu_starter_template.zip"
-              download="snhu_starter_template.zip"
+              href={zip}
+              download="starter_template.zip"
             >
               Download Starter Template
             </a>

@@ -21,6 +21,12 @@ class Sidebar extends Component {
             </a>
           </li>
           <li>
+            <a href="#get-started" class="">
+              Setting up your PC
+            </a>
+          </li>
+          
+          <li>
             <a
               href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/introduction/how-to-use-this-guide"
               class="bd-links-link d-inline-block rounded"
