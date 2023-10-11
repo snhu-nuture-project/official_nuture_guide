@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar";
 import Landing from "./components/landing";
 import ComponentLib from "./components/Component Lib";
 import Git from "./components/git";
+import Team from "./components/Team"
 import Footer from "./components/Footer";
 import "./App.css";
 import { Fragment } from "react";
@@ -16,6 +17,7 @@ function App() {
         <Landing />
         <ComponentLib />
         <Git />
+        <Team />
       </div>
       <Footer />
     </Fragment>
