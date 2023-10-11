@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/official_nuture_guide/static/css/main.23a2a162.css",
-    "main.js": "/official_nuture_guide/static/js/main.e8fc8a48.js",
+    "main.css": "/official_nuture_guide/static/css/main.062559a2.css",
+    "main.js": "/official_nuture_guide/static/js/main.e1898c48.js",
     "static/js/787.bc7d429a.chunk.js": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js",
     "static/media/accordion.gif": "/official_nuture_guide/static/media/accordion.f462f8f9987d748951e5.gif",
     "static/media/kb.jpg": "/official_nuture_guide/static/media/kb.15aa286bde9962a73f09.jpg",
     "static/media/blo.png": "/official_nuture_guide/static/media/blo.378383df14eaf931da10.png",
+    "static/media/snhu_starter_template.zip": "/official_nuture_guide/static/media/snhu_starter_template.07700622b3ab917a8622.zip",
     "static/media/cusumano.png": "/official_nuture_guide/static/media/cusumano.795fdb9af9561be4d218.png",
     "static/media/buhl.png": "/official_nuture_guide/static/media/buhl.258e7d901352bd2f05bf.png",
     "static/media/cook.png": "/official_nuture_guide/static/media/cook.6b1638dcbe174abfc75d.png",
@@ -20,12 +21,12 @@
     "static/media/mullaney.png": "/official_nuture_guide/static/media/mullaney.0eca750ce280a035d350.png",
     "static/media/franklin.png": "/official_nuture_guide/static/media/franklin.38e1102cd84568175a6b.png",
     "index.html": "/official_nuture_guide/index.html",
-    "main.23a2a162.css.map": "/official_nuture_guide/static/css/main.23a2a162.css.map",
-    "main.e8fc8a48.js.map": "/official_nuture_guide/static/js/main.e8fc8a48.js.map",
+    "main.062559a2.css.map": "/official_nuture_guide/static/css/main.062559a2.css.map",
+    "main.e1898c48.js.map": "/official_nuture_guide/static/js/main.e1898c48.js.map",
     "787.bc7d429a.chunk.js.map": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23a2a162.css",
-    "static/js/main.e8fc8a48.js"
+    "static/css/main.062559a2.css",
+    "static/js/main.e1898c48.js"
   ]
 }
