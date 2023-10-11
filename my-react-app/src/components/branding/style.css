@@ -1,0 +1,121 @@
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: -15px -2px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+  border: solid 6px white
+}
+
+.circle-1 {
+  background-color: var(--primary);
+}
+
+.circle-2 {
+  background-color:  var(--ink-blue);;
+}
+
+.circle-3 {
+  background-color:  var(--sky-blue);
+}
+
+.circle-4 {
+  background-color:  var(--heritage);;
+}
+
+.circle-5 {
+  background-color:  var(--hero-blue);;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.xl-font {
+  font-size: 120px;
+  color: var(--heritage);
+  font-family: "Oswald", sans-serif;
+}
+
+.font-32 {
+  font-size: 32px;
+  font-weight: 900;
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.text-black {
+  color: black;
+}
+.font-24 {
+  font-size: 24px;
+  color: var(--hero-blue);
+  font-family: "Oswald", sans-serif;
+}
+
+.font-16 {
+  font-size: 16px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.font-14 {
+  font-weight:700;
+  font-size: 14px;
+  color: var(--primary);
+  font-family: "Oswald", sans-serif;
+}
+
+.xl-font-os {
+  font-size: 120px;
+  color: var(--heritage);
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-32-os {
+  font-size: 32px;
+  font-weight: 900;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.font-24-os {
+  font-size: 24px;
+  color: var(--hero-blue);
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-16-os {
+  font-size: 16px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-14-os {
+  font-weight:700;
+  font-size: 14px;
+  color: var(--primary);
+  font-family: "Open Sans", sans-serif;
+}
+
+.bl{
+  border: 10px solid var(--sky-blue);
+}
+.br{
+  border: 10px solid var(--primary);
+}
+.floating-element-1 {
+  animation: float 10s linear infinite; /* Animation properties */
+}
+
+.floating-element-2 {
+  animation: float-2 15s linear infinite; /* Animation properties */
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); } /* Initial and final state */
+  50% { transform: translateY(-20px); } /* Midpoint of animation */
+}
+@keyframes float-2 {
+  50% { transform: translateY(-20px); } /* Midpoint of animation */
+  0%, 100% { transform: translateY(0); } /* Initial and final state */
+}

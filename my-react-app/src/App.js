@@ -4,6 +4,7 @@ import Landing from "./components/landing";
 import ComponentLib from "./components/Component Lib";
 import Git from "./components/git";
 import GetStarted from "./components/getStarted";
+import Brand from './components/branding';
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
           <Landing />
         </Zoom>
         <GetStarted />
+        <Brand />
         <ComponentLib />
         <Git />
         <Zoom>
