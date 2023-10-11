@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/official_nuture_guide/static/css/main.23a2a162.css",
-    "main.js": "/official_nuture_guide/static/js/main.f85f6a27.js",
+    "main.js": "/official_nuture_guide/static/js/main.e8fc8a48.js",
     "static/js/787.bc7d429a.chunk.js": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js",
     "static/media/accordion.gif": "/official_nuture_guide/static/media/accordion.f462f8f9987d748951e5.gif",
     "static/media/kb.jpg": "/official_nuture_guide/static/media/kb.15aa286bde9962a73f09.jpg",
@@ -21,11 +21,11 @@
     "static/media/franklin.png": "/official_nuture_guide/static/media/franklin.38e1102cd84568175a6b.png",
     "index.html": "/official_nuture_guide/index.html",
     "main.23a2a162.css.map": "/official_nuture_guide/static/css/main.23a2a162.css.map",
-    "main.f85f6a27.js.map": "/official_nuture_guide/static/js/main.f85f6a27.js.map",
+    "main.e8fc8a48.js.map": "/official_nuture_guide/static/js/main.e8fc8a48.js.map",
     "787.bc7d429a.chunk.js.map": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23a2a162.css",
-    "static/js/main.f85f6a27.js"
+    "static/js/main.e8fc8a48.js"
   ]
 }
