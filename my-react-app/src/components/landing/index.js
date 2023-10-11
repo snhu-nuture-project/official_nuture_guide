@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import Lottie from "lottie-react";
 import "./styles.css";
 import snhuMarket from "../../images/animation_lnc0moq3.json";
-import $ from "jquery";
+import Zoom from 'react-reveal/Zoom';
 
 class Landing extends Component {
   // download = () => {
@@ -28,7 +28,9 @@ class Landing extends Component {
       <section className="beginning" id="beginning">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="name ">Welcome to Nuture Marketing </h1>
+            <Zoom>
+              <h1 className="name ">Welcome to Nuture Marketing </h1>
+            </Zoom>
             <h3>
               <Typewriter
                 onInit={(typewriter) => {
@@ -52,7 +54,7 @@ class Landing extends Component {
               className="btn btn-primary"
               id="downloadButton"
               href="./snhu_starter_template.zip"
-              download = "snhu_starter_template.zip"
+              download="snhu_starter_template.zip"
             >
               Download Starter Template
             </a>

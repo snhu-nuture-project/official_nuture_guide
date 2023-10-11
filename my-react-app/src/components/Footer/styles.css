@@ -21,7 +21,7 @@
 
   footer{
     padding: 7.9rem 0;
-    background-color: #121212;
+    background-color: var(--ink-blue);
     color: white;
     text-align: center;
     position: relative;
@@ -35,7 +35,7 @@ width: 200px;
 .back-to-top{
     width: 7rem;
     height: 7rem;
-    background-color: #121212;
+    background-color: var(--ink-blue);
     position: absolute;
     top: -3rem;
     left: 50%;
@@ -69,7 +69,7 @@ width: 200px;
    
     display: flex;
     justify-content: center;
-    color: var(--highlights);
+    color: var(--primary);
     padding: 0;
     margin: auto;
     font-size: 70px;

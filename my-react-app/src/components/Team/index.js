@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TeamMember from "./teamMembers";
-import $ from "jquery";
 import "./styles.css";
 
 function importAll(r) {
@@ -101,7 +100,7 @@ class Team extends Component {
       <section className="team-section" id="team-section">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
-            <h1 className="text-center">Meet the Team!</h1>
+            <h1 className="text-center mb-5">Meet the Team!</h1>
           </div>
 
           {teamMembers.map((member, index) => (

@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from "react";
 import snhuLogo from "../../images/snhuLogo.png";
+import Fade from "react-reveal/Fade";
 import "./styles.css";
 
 class NavBar extends Component {
   render() {
     return (
       <Fragment>
-        <nav class="navbar navbar-expand-lg m-5">
+        <nav class="navbar navbar-expand-lg m-5" id="navy">
           <img src={snhuLogo} alt="snhu Logo" class="logo" />
           <button
             class="navbar-toggler"
@@ -24,23 +25,32 @@ class NavBar extends Component {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link" href="#">
-                <span class="highlight"> 01 </span> Home{" "}
-                <span class="sr-only">(current)</span>
-              </a>
-              <a class="nav-link" href="#">
-                {" "}
-                <span class="highlight"> 02 </span>
-                Components
-              </a>
-              <a class="nav-link" href="#">
-                <span class="highlight"> 03 </span>
-                Brand Guide
-              </a>
-              <a class="nav-link" href="#">
-                <span class="highlight"> 04 </span>
-                Info Center
-              </a>
+              <Fade delay={4000} duration={4000} left>
+                <a class="nav-link" href="#landing">
+                  <span class="highlight"> 01 </span> Home{" "}
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Fade>
+              <Fade delay={3000} duration={4000} left>
+                <a class="nav-link" href="#component-lib">
+                  {" "}
+                  <span class="highlight"> 02 </span>
+                  Components
+                </a>
+              </Fade>
+
+              <Fade delay={2000} duration={4000} left>
+                <a class="nav-link" href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/introduction/how-to-use-this-guide">
+                  <span class="highlight"> 03 </span>
+                  Brand Guide
+                </a>
+              </Fade>
+              <Fade duration={4000} left>
+                <a class="nav-link" href="#team-section">
+                  <span class="highlight"> 04 </span>
+                  Team
+                </a>
+              </Fade>
             </div>
           </div>
         </nav>

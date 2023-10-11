@@ -5,6 +5,7 @@ class Git extends Component {
   render() {
     return (
       <section className="github" id="github">
+
         <div className="row">
           <div className="col-md-12">
             <h1 className="text-center">Github Cheat Sheet</h1>
@@ -13,7 +14,7 @@ class Git extends Component {
         </div>
 
         <div className="row">
-          <table border="1" className="table-style">
+          <table className="table-style">
             <thead>
               <tr>
                 <th>Command</th>
@@ -202,6 +203,7 @@ class Git extends Component {
             </tbody>
           </table>
         </div>
+
       </section>
     );
   }

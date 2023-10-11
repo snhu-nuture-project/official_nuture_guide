@@ -5,15 +5,15 @@
 }
 
 
-  .nav-link {
+  .navbar-nav a {
     color:#fff;
     font-family: var(--open-sans);
     text-transform: uppercase;
     font-size: 18px;
   }
 
-    .nav-link:hover{
-        
+    .navbar-nav a:hover{
+        text-decoration: none;
         color:var(--primary);
         border-bottom: solid 2px var(--primary);
     }
