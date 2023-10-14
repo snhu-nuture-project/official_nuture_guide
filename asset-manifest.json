@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/official_nuture_guide/static/css/main.bbe9aa3e.css",
-    "main.js": "/official_nuture_guide/static/js/main.d351b08a.js",
+    "main.css": "/official_nuture_guide/static/css/main.b596e084.css",
+    "main.js": "/official_nuture_guide/static/js/main.94a3c320.js",
     "static/js/787.bc7d429a.chunk.js": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js",
     "static/media/accordion.gif": "/official_nuture_guide/static/media/accordion.f462f8f9987d748951e5.gif",
     "static/media/kb.jpg": "/official_nuture_guide/static/media/kb.15aa286bde9962a73f09.jpg",
-    "static/media/blo.png": "/official_nuture_guide/static/media/blo.378383df14eaf931da10.png",
+    "static/media/accred.png": "/official_nuture_guide/static/media/accred.7ced52d210c2e433d71b.png",
     "static/media/snhu_starter_template.zip": "/official_nuture_guide/static/media/snhu_starter_template.07700622b3ab917a8622.zip",
+    "static/media/footer.png": "/official_nuture_guide/static/media/footer.e594795ed67a4112a843.png",
     "static/media/cusumano.png": "/official_nuture_guide/static/media/cusumano.795fdb9af9561be4d218.png",
     "static/media/buhl.png": "/official_nuture_guide/static/media/buhl.258e7d901352bd2f05bf.png",
     "static/media/cook.png": "/official_nuture_guide/static/media/cook.6b1638dcbe174abfc75d.png",
@@ -17,16 +18,17 @@
     "static/media/sorensen.png": "/official_nuture_guide/static/media/sorensen.2cb01f235a3852c825fa.png",
     "static/media/mitchell.png": "/official_nuture_guide/static/media/mitchell.bd9df9f3381a4d909865.png",
     "static/media/donovan.png": "/official_nuture_guide/static/media/donovan.dfde1b0b793b02432ec4.png",
+    "static/media/nav.png": "/official_nuture_guide/static/media/nav.77de59eb26e6231f38f5.png",
     "static/media/almeida.png": "/official_nuture_guide/static/media/almeida.b8e0f55183e02fcece6b.png",
     "static/media/mullaney.png": "/official_nuture_guide/static/media/mullaney.0eca750ce280a035d350.png",
     "static/media/franklin.png": "/official_nuture_guide/static/media/franklin.38e1102cd84568175a6b.png",
     "index.html": "/official_nuture_guide/index.html",
-    "main.bbe9aa3e.css.map": "/official_nuture_guide/static/css/main.bbe9aa3e.css.map",
-    "main.d351b08a.js.map": "/official_nuture_guide/static/js/main.d351b08a.js.map",
+    "main.b596e084.css.map": "/official_nuture_guide/static/css/main.b596e084.css.map",
+    "main.94a3c320.js.map": "/official_nuture_guide/static/js/main.94a3c320.js.map",
     "787.bc7d429a.chunk.js.map": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbe9aa3e.css",
-    "static/js/main.d351b08a.js"
+    "static/css/main.b596e084.css",
+    "static/js/main.94a3c320.js"
   ]
 }
