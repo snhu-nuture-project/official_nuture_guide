@@ -1,3 +1,9 @@
+.brand h2{
+  color:var(--bold-text);
+  font-family: var(--main-font);
+  text-align: center;
+}
+
 .circle {
   width: 150px;
   height: 150px;

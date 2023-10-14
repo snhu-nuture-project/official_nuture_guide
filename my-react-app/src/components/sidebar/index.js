@@ -35,23 +35,23 @@ class Sidebar extends Component {
             </a>
             <ol>
               {" "}
-              <a href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/how-we-look/colors">
-                Colors
-              </a>
-            </ol>
-            <ol>
-              {" "}
-              <a href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/how-we-look/typography">
-                Typography
-              </a>
-            </ol>
-            <ol>
-              {" "}
               <a href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/how-we-look/photography">
                 Photos
               </a>
             </ol>
           </li>
+            <li>
+              {" "}
+              <a href="#colors">
+                Colors
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#typo">
+                Typography
+              </a>
+            </li>
           <li>
             <a
               href="/docs/5.3/getting-started/contents/"

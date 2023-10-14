@@ -1,7 +1,7 @@
 
-.get-started h2 {
-color: #fff;
-
+.get-started h2{
+    color:var(--bold-text);
+    font-family: var(--main-font);
 }
 
 

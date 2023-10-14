@@ -11,6 +11,8 @@ body{
 --sky-blue:#009dea;
 --hero-blue: #2066a2;
 
+--primary-hover: #fee097;
+
 --oswald: 'Oswald', sans-serif;
 --open-sans: 'Open Sans', sans-serif;
 }
@@ -22,6 +24,7 @@ body{
 h1{
   color: #fff;
   font-family: var(--oswald);
+  font-size: 48px;
 }
 
 html {
@@ -35,6 +38,41 @@ html {
 
 section {
   margin-bottom: 10rem;
+}
+
+
+.btn {
+  padding: 0.6rem 0.9rem;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.btn-primary {
+background-color: var(--primary);
+border-color: var(--primary);
+color: var(--heritage);
+
+&:hover {
+background-color: var(--primary-hover);
+border-color: var(--primary-hover);
+color: var(--heritage);
+}
+}
+
+
+.btn-secondary {
+background-color: var(--heritage);
+border-color: var(--heritage);
+color: #fff;
+}
+
+.btn-secondary:hover {
+background-color: #fff;
+border-color: #fff;
+color: var(--heritage);
 }
 
 @media (prefers-reduced-motion: no-preference) {

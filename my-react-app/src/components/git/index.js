@@ -8,7 +8,7 @@ class Git extends Component {
 
         <div className="row">
           <div className="col-md-12">
-            <h1 className="text-center">Github Cheat Sheet</h1>
+            <h1>Github Cheat Sheet</h1>
             <hr className="hrt" />
           </div>
         </div>
@@ -120,7 +120,7 @@ class Git extends Component {
 
         <div className="row">
           <div className="col-md-12 mt-4">
-            <h1 className="text-center">GitBash Basic Commands</h1>
+            <h1>GitBash Basic Commands</h1>
             <hr className="hrt" />
           </div>
         </div>

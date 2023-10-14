@@ -13,7 +13,6 @@
     text-align: center;
 }
 
-
 p{
     font-family: var(--open-sans);
     color:#fff;
@@ -37,6 +36,7 @@ p{
     border-radius: 4px;
     font-family: Consolas, monospace;
     margin-bottom: 10px;
+    height: 100%;
 }
 
 /* Style for the copy button */

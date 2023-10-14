@@ -91,7 +91,6 @@ const teamMembers = [
     name: "Tiffany Sorensen",
     role: "Nuture Copywriter",
   },
-  
 ];
 
 class Team extends Component {
