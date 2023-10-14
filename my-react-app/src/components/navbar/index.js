@@ -31,23 +31,37 @@ class NavBar extends Component {
                   <span class="sr-only">(current)</span>
                 </a>
               </Fade>
+              <Fade delay={3500} duration={4000} left>
+                <a class="nav-link" href="#get-started">
+                  <span class="highlight"> 02 </span> Setup{" "}
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Fade>
               <Fade delay={3000} duration={4000} left>
                 <a class="nav-link" href="#component-lib">
                   {" "}
-                  <span class="highlight"> 02 </span>
+                  <span class="highlight"> 03 </span>
+                  Themes
+                </a>
+              </Fade>
+
+              <Fade delay={2500} duration={4000} left>
+                <a class="nav-link" href="#component-lib">
+                  {" "}
+                  <span class="highlight"> 04 </span>
                   Components
                 </a>
               </Fade>
 
               <Fade delay={2000} duration={4000} left>
-                <a class="nav-link" href="https://brand.snhu.edu/d/hvaxQ3qRLmXv/snhu-brand-guide#/introduction/how-to-use-this-guide">
-                  <span class="highlight"> 03 </span>
-                  Brand Guide
+                <a class="nav-link" href="#github">
+                  <span class="highlight"> 05 </span>
+                  Git hub Cheat Sheet
                 </a>
               </Fade>
               <Fade duration={4000} left>
                 <a class="nav-link" href="#team-section">
-                  <span class="highlight"> 04 </span>
+                  <span class="highlight"> 06 </span>
                   Team
                 </a>
               </Fade>

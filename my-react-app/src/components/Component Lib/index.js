@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AccordionGif from "./assets/accordion.gif";
 import footer from "./assets/footer.png";
 import nav from "./assets/nav.png";
-import $ from "jquery";
+import accred from "./assets/accred.png";
 import "./styles.css";
 
 class ComponentLib extends Component {
@@ -51,6 +51,7 @@ class ComponentLib extends Component {
         </div>`,
       image: AccordionGif,
       work: "The accordion uses collapse internally to make it collapsible",
+      example:""
     });
   };
 
@@ -130,6 +131,16 @@ class ComponentLib extends Component {
         src="https://client-data.knak.io/production/email_assets/5fd10b569d941/URLXxrrgwra1n8IolHbmjqoC3cLBsPysUnEDKV6p.png"
         alt="SNHU accreditation logos" width="100%" height="auto">
     </div>`,
+      image: accred,
+    });
+  };
+
+  changeForm = () => {
+    this.setState({
+      title: "Forms",
+      code: `code coming soon`,
+      image: "",
+      work: "Form elements are crucial components of web pages that allow users to input and submit data. Forms are used for various purposes, including user registration, login, search, data submission, and more.",
     });
   };
 
@@ -178,10 +189,7 @@ class ComponentLib extends Component {
                 {" "}
                 Accredation{" "}
               </button>
-              <button
-                className="btn-primary btn"
-                onClick={this.changeAccrediation}
-              >
+              <button className="btn-primary btn" onClick={this.changeForm}>
                 {" "}
                 Forms{" "}
               </button>
