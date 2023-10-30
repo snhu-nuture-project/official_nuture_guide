@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/official_nuture_guide/static/css/main.b596e084.css",
-    "main.js": "/official_nuture_guide/static/js/main.94a3c320.js",
+    "main.css": "/official_nuture_guide/static/css/main.1fa0a540.css",
+    "main.js": "/official_nuture_guide/static/js/main.e008dc9d.js",
     "static/js/787.bc7d429a.chunk.js": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js",
     "static/media/accordion.gif": "/official_nuture_guide/static/media/accordion.f462f8f9987d748951e5.gif",
     "static/media/kb.jpg": "/official_nuture_guide/static/media/kb.15aa286bde9962a73f09.jpg",
@@ -23,12 +23,12 @@
     "static/media/mullaney.png": "/official_nuture_guide/static/media/mullaney.0eca750ce280a035d350.png",
     "static/media/franklin.png": "/official_nuture_guide/static/media/franklin.38e1102cd84568175a6b.png",
     "index.html": "/official_nuture_guide/index.html",
-    "main.b596e084.css.map": "/official_nuture_guide/static/css/main.b596e084.css.map",
-    "main.94a3c320.js.map": "/official_nuture_guide/static/js/main.94a3c320.js.map",
+    "main.1fa0a540.css.map": "/official_nuture_guide/static/css/main.1fa0a540.css.map",
+    "main.e008dc9d.js.map": "/official_nuture_guide/static/js/main.e008dc9d.js.map",
     "787.bc7d429a.chunk.js.map": "/official_nuture_guide/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b596e084.css",
-    "static/js/main.94a3c320.js"
+    "static/css/main.1fa0a540.css",
+    "static/js/main.e008dc9d.js"
   ]
 }
