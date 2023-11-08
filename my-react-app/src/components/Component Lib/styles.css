@@ -58,3 +58,7 @@ pre {
     word-wrap: break-word; /* For older browsers */
     overflow-wrap: break-word; /* For modern browsers */
 }
+
+.com-btn {
+    border: solid 1px var(--ink-blue);
+}

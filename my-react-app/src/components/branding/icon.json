@@ -1,0 +1,32 @@
+{
+    "icons": [
+      {
+        "name": "Accessibility",
+        "src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvZFM0dmJuMjZTZTZKaTdtakhTUUYuc3ZnIn0:snhuniversity:bvD_HLjXkL77tTiNOS3qKD6diWawMBY1XCCDQZzOoqE?width=800"
+      },
+
+      {
+        "name": "Clip Board",
+        "src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvYkxMaXh1TG03SE43NmJuMkFhZHAuc3ZnIn0:snhuniversity:RuDXMKW6fT8sR-WKnBzwqJ2BMGDJAYeayKfNYQ4rf1k?width=800"
+      },
+
+      {
+        "name": "Person Check",
+        "src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvd0dia0FTb2RzMTZkZUFVUkd4c24uc3ZnIn0:snhuniversity:36TOaT7u2HO6lPPw9-oaNi7SQtkxIKVINnnLldqd8yQ?width=800"
+      },
+      {
+        "name": "Laptop",
+        "src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvYU51SHB4UHZqZGlMSGI4M2luczIuc3ZnIn0:snhuniversity:zdjAKW-uXjl_emtXNp4WNpnA7OPbYYUtNPbXWAaetIQ?width=800"
+      },
+       {
+        "name": "Handshake",
+        "src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvSHZzN1JkVnlwaEpqZDc1TEozcksuc3ZnIn0:snhuniversity:c1EcedRPicDRmlOELhr8wRdVFTrtG4k-34FDSfPLvfg?width=800"
+       },
+       {
+        "name": "Light Bulb",
+"src": "https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvckVVWmdqRllKaHJMZXVUeUtOcWYuc3ZnIn0:snhuniversity:oAc11hBLq1FaB9RpAvdTYLX6kfuC3HDEjXMDDWWxJ34?width=800"
+       }
+
+    ]
+  }
+  

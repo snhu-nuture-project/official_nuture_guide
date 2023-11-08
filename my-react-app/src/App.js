@@ -5,6 +5,7 @@ import ComponentLib from "./components/Component Lib";
 import Git from "./components/git";
 import GetStarted from "./components/getStarted";
 import Brand from './components/branding';
+import Icon from './components/branding/icon'
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -22,6 +23,7 @@ function App() {
         </Zoom>
         <GetStarted />
         <Brand />
+        <Icon />
         <ComponentLib />
         <Git />
         <Zoom>

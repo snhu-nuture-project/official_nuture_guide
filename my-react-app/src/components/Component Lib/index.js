@@ -51,7 +51,7 @@ class ComponentLib extends Component {
         </div>`,
       image: AccordionGif,
       work: "The accordion uses collapse internally to make it collapsible",
-      example:""
+      example: "",
     });
   };
 
@@ -146,8 +146,8 @@ class ComponentLib extends Component {
 
   render() {
     const buttonClassName = this.state.isButtonActive
-      ? "btn btn-primary active"
-      : "btn btn-primary";
+      ? "btn btn-primary active com-btn"
+      : "btn btn-primary com-btn";
 
     return (
       <section className="component-lib" id="component-lib">
@@ -163,7 +163,7 @@ class ComponentLib extends Component {
         <div className="row">
           <div className="col-md-6">
             <h2>How it works</h2>
-            <div className="d-flex justify-content-center btn-group com-btn col-md-12">
+            <div className="d-flex justify-content-center btn-group col-md-12 mb-2">
               <button
                 className={buttonClassName}
                 onClick={this.changeAccordion}
@@ -174,22 +174,33 @@ class ComponentLib extends Component {
                 {" "}
                 Buttons{" "}
               </button>
-              <button className="btn-primary btn " onClick={this.changeFooter}>
+              <button
+                className="btn-primary btn com-btn "
+                onClick={this.changeFooter}
+              >
                 {" "}
                 Footer{" "}
               </button>
-              <button className="btn-primary btn" onClick={this.changeNavBar}>
+            </div>
+            <div className="col-md-12 d-flex justify-content-center btn-group ">
+              <button
+                className="btn-primary btn com-btn"
+                onClick={this.changeNavBar}
+              >
                 {" "}
                 Nav Bar{" "}
               </button>
               <button
-                className="btn-primary btn"
+                className="btn-primary btn com-btn"
                 onClick={this.changeAccrediation}
               >
                 {" "}
                 Accredation{" "}
               </button>
-              <button className="btn-primary btn" onClick={this.changeForm}>
+              <button
+                className="btn-primary btn com-btn"
+                onClick={this.changeForm}
+              >
                 {" "}
                 Forms{" "}
               </button>
