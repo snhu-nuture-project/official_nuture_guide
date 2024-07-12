@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 import "./styles.css";
 import snhuMarket from "../../images/animation_lnc0moq3.json";
 import Zoom from "react-reveal/Zoom";
-import zip from "../landing/snhu_starter_template.zip"
+import zip from "../landing/starter_template.zip"
 
 class Landing extends Component {
   // download = () => {
